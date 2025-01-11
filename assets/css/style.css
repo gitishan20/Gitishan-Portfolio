@@ -3,17 +3,7 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
 
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -1240,7 +1230,15 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .clients-item { min-width: calc(33.33% - 10px); }
-
+  .resume-icon {
+    display: inline-block;
+    margin-left: 1px;
+    vertical-align: middle;
+  }
+  .custom-icon {
+    width: 26px; /* Adjust the width as needed */
+    height: 26px; /* Adjust the height as needed */
+  }
 
 
   /**
@@ -1878,32 +1876,25 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+/* ...existing code... */
+
+.resume-icon {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.custom-icon {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+}
 
 
-  .resume-download {
-    display: inline-block;
-    margin-left: 2px;
-    
-    
-    
-    
-    
-    
-    
-    font-size: 0.9em;
-    
-  }
+
+/* ...existing code... */
+
   
-  .resume-download:hover {
-    background-color: #555;
-  }
   
-  .custom-icon {
-    width: 30px; /* Adjust the width as needed */
-    height: 30px; /* Adjust the height as needed */
-    vertical-align: middle;
-    margin-right: 2px;
-  }
-  
+ 
 
 }
