@@ -1221,7 +1221,32 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 /**
  * responsive larger than 450px screen
- */
+ */@media (min-width: 300px) {
+
+  /**
+   * client
+   */
+
+  .clients-item { min-width: calc(33.33% - 10px); }
+  .resume-icon {
+    display: inline-block;
+    margin-left: 1px;
+    vertical-align: middle;
+  }
+  .custom-icon {
+    width: 27px; /* Adjust the width as needed */
+    height: 27px; /* Adjust the height as needed */
+  }
+
+
+  /**
+   * #PORTFOLIO, BLOG 
+   */
+
+  .project-img,
+  .blog-banner-box { height: auto; }
+
+}
 
 @media (min-width: 450px) {
 
@@ -1279,7 +1304,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     --fs-8: 12px;
 
   }
-
+  
 
 
   /**
